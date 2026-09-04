@@ -44,5 +44,4 @@ export const Educations: {
 
 export const EducationsList = [
   Educations.University,
-  Educations.Test,
 ]
