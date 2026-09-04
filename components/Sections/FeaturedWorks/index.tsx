@@ -72,7 +72,7 @@ const FeaturedWorksSection = () => {
             description="
               Solvrr Creative Studio is a digital marketing agency. 
               We help our clients get found, get customers, and make more money on the web."
-            src="/works/klimadao_finance2.png"
+            src="/works/klimadao_finance.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://klimadao.finance/"
             objectPosition="right 20%"
@@ -85,7 +85,7 @@ const FeaturedWorksSection = () => {
             idx={4}
             title="kira"
             description="The first network that hosts, powers and secures DeFi applications with value of real assets at stake."
-            src="/works/kira2.png"
+            src="/works/kira.png"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://kira.network/"
             isMobile={isMobile}
