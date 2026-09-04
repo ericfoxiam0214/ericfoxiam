@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Education = 'University' | 'Test'
+export type Education = 'University'
 
 export type EducationDetail = {
   name: string
