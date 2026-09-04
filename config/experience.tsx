@@ -20,7 +20,7 @@ export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
   Pastel: {
-    name: 'PASTEL_NETWORK abc abc',
+    name: 'PASTEL_NETWORK',
     longName: 'PASTEL_NETWORK Ziegelbrücke',
     // subDetail: 'Software company in Glarus Nord',
     url: 'https://pastel.network/',
