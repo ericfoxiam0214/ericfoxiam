@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { Heading, Text, Stack, Link } from '@chakra-ui/react'
-import ExperienceTab from './ExperienceTab'
+import EducationTab from './EducationTab'
 const EducationSection = () => (
   <Stack
     width={{ base: '99%', lg: '60%', xl: '75%' }}
@@ -16,7 +16,7 @@ const EducationSection = () => (
       Education & Experience
     </Heading>
 
-    <ExperienceTab />
+    <EducationTab />
   </Stack>
 )
 

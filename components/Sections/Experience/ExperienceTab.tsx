@@ -108,7 +108,7 @@ const ExperienceTab = () => {
                   >
                     #{company.name}
                   </Link>
-                  <Text
+                  {/* <Text
                     as="span"
                     textTransform="none"
                     fontSize="x-small"
@@ -116,7 +116,7 @@ const ExperienceTab = () => {
                   >
                     {' '}
                     {company.subDetail}
-                  </Text>
+                  </Text> */}
                 </Text>
                 <Text fontSize="smaller">{company.duration}</Text>
               </Stack>

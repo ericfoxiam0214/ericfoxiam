@@ -5,7 +5,7 @@ export type Education = 'University'
 export type EducationDetail = {
   name: string
   longName: string
-  subDetail?: string
+  // subDetail?: string
   url: string
   position: string
   duration: string

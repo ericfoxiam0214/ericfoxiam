@@ -5,7 +5,7 @@ export type Company = 'Pastel' | 'Bitdeal' | 'KiraNetwork' | 'AbsoluteWeb'
 export type CompanyDetail = {
   name: string
   longName: string
-  subDetail?: string
+  // subDetail?: string
   url: string
   position: string
   duration: string
