@@ -1,8 +1,8 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'Deloitte' | 'SCG' | 'Blotocol'
+export type Education = 'University'
 
-export type CompanyDetail = {
+export type EducationDetail = {
   name: string
   longName: string
   subDetail?: string
@@ -17,9 +17,9 @@ export type CompanyDetail = {
 }
 
 export const Educations: {
-  [key in Company]: CompanyDetail
+  [key in Education]: EducationDetail
 } = {
-  Deloitte: {
+  University: {
     name: 'Stanford University',
     longName: 'Stanford University',
     // subDetail: 'Stanford University',
@@ -45,5 +45,5 @@ export const Educations: {
 }
 
 export const EducationsList = [
-  Educations.Deloitte,
+  Educations.University,
 ]
