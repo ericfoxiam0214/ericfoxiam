@@ -5,7 +5,6 @@ export type Company = 'Pastel' | 'Bitdeal' | 'KiraNetwork' | 'AbsoluteWeb'
 export type CompanyDetail = {
   name: string
   longName: string
-  // subDetail?: string
   url: string
   position: string
   duration: string
@@ -22,7 +21,6 @@ export const Experiences: {
   Pastel: {
     name: 'PASTEL_NETWORK',
     longName: 'PASTEL_NETWORK Ziegelbrücke',
-    // subDetail: 'Software company in Glarus Nord',
     url: 'https://pastel.network/',
     position: 'Sr. Full stack Web3 Software Engineer',
     duration: 'Jan 2022 - Oct 2025',
@@ -42,7 +40,6 @@ export const Experiences: {
   Bitdeal: {
     name: 'BITDEAL',
     longName: 'BITDEAL United States',
-    // subDetail: 'Consultant in Lugano',
     url: 'https://www.bitdeal.net/',
     position: 'Sr. Full-Stack Web3 Engineer',
     duration: 'May 2020 - Dec 2021',
@@ -68,7 +65,6 @@ export const Experiences: {
   KiraNetwork: {
     name: 'KIRA_NETWORK',
     longName: 'KIRA_NETWORK',
-    // subDetail: 'The Consulting Marketplace',
     url: 'https://kira.network/',
     position: 'Frontend Engineer',
     duration: 'Apr 2019 - May 2020',
@@ -91,7 +87,6 @@ export const Experiences: {
   AbsoluteWeb: {
     name: 'ABSOLUTE_WEB',
     longName: 'ABSOLUTE_WEB',
-    // subDetail: 'The Consulting Marketplace',
     url: 'https://absoluteweb.com/',
     position: 'Frontend Engineer',
     duration: 'Nov 2016 - Apr 2019',

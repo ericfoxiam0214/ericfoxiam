@@ -55,9 +55,9 @@ const ExperienceTab = () => {
         overflowY={'hidden'}
         className={styles.experienceTabs}
       >
-        {EducationsList.map((company) => (
+        {EducationsList.map((university) => (
           <Tab
-            key={`Tab-${company.name}`}
+            key={`Tab-${university.name}`}
             fontSize="smaller"
             h="120px"
             minWidth={tabMinWidth}
@@ -75,7 +75,7 @@ const ExperienceTab = () => {
           >
             <Image
               src={
-                colorMode === 'dark' ? company.logo.dark : company.logo.light
+                colorMode === 'dark' ? university.logo.dark : university.logo.light
               }
               maxWidth="88px"
               fallback={<Skeleton height="100%" width="100%" />}
@@ -84,8 +84,8 @@ const ExperienceTab = () => {
         ))}
       </TabList>
       <TabPanels>
-        {EducationsList.map((company) => (
-          <TabPanel key={`TabPanel-${company.name}`}>
+        {EducationsList.map((university) => (
+          <TabPanel key={`TabPanel-${university.name}`}>
             <SlideFade offsetY="20px" in={true}>
               <Stack spacing={0}>
                 <Text
@@ -94,35 +94,26 @@ const ExperienceTab = () => {
                   fontWeight="bold"
                   variant="description"
                 >
-                  {company.position}
+                  {university.position}
                 </Text>
                 <Text as="span">
                   <Link
-                    href={company.url}
+                    href={university.url}
                     aria-label="scentregroup"
                     rel="noreferrer"
                     target="_blank"
                     fontSize="lg"
                     fontWeight="bold"
                   >
-                    #{company.name}
+                    #{university.name}
                   </Link>
-                  {/* <Text
-                    as="span"
-                    textTransform="none"
-                    fontSize="x-small"
-                    variant="description"
-                  >
-                    {' '}
-                    {company.subDetail}
-                  </Text> */}
                 </Text>
-                <Text fontSize="smaller">{company.duration}</Text>
+                <Text fontSize="smaller">{university.duration}</Text>
               </Stack>
               <List spacing={3} pt={5}>
-                {company.roles?.map((roleDesc, idx) => (
+                {university.roles?.map((roleDesc, idx) => (
                   <ListItem
-                    key={`${company.name}-desc-${idx}`}
+                    key={`${university.name}-desc-${idx}`}
                     fontSize="smaller"
                     display="flex"
                     alignItems="center"
